@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.scss';
-
+import Mycomponent from './Example/Mycomponent';
+import TestJsx from './Example/TestJsx';
+import TestState from './Example/TestState';
 function App() {
   return (
     <div className="App">
@@ -17,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        {/* embedding JSX file into interface user */}
+            <TestState/>
+        {/* <Mycomponent></Mycomponent> */}
       </header>
     </div>
   );
